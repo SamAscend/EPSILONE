@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #0f0f0f;
+    line-height: 1.6;
+  }
+  
+  header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 2rem;
+  }
+  
+  header h1 {
+    font-size: 4rem;
+    font-weight: 800;
+  }
+  
+  header p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  section {
+    padding: 4rem 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  h1, h2, h3, p {
+  text-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+
+body, header, section, footer {
+    color: #eee; /* atau #fff untuk putih terang */
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 1rem;
+    transition: transform 0.3s;
+  }
+  
+  .project:hover {
+    transform: translateY(-5px);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid #eee;
+  }
+  
